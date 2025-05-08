@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Soham Cable Network</title>
+    <link rel="shortcut icon" href="./Images/100 .webp" type="image/x-icon">
+    <link rel="stylesheet" href="./SohamCable.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container" tabindex="0" aria-label="Soham Cable Network Logo">
+            <img src="./Images/100 .webp" alt="Soham Cable Network Logo" />
+            <div class="logo-text">Soham Cable Network</div>
+        </div>
+        <nav aria-label="Primary navigation">
+            <a href="#home" tabindex="0">Home</a>
+            <a href="#channels" tabindex="0">Channels</a>
+            <a href="#plans" tabindex="0">Plans</a>
+            <a href="#support" tabindex="0">Support</a>
+            <a href="#contact" tabindex="0">Contact</a>
+        </nav>
+    </header>
+
+    <!-- New 3 Images Carousel after navbar -->
+    <section id="home">
+        <div class="image-carousel" role="region" aria-roledescription="carousel"
+            aria-label="Soham Cable Network promotional images" tabindex="0">
+            <div class="carousel-slides" id="carouselSlides">
+                <div class="carousel-slide">
+                    <img src="./Images/img1.jpg" alt="Family watching TV together" />
+                </div>
+                <div class="carousel-slide">
+                    <img src="./Images/img2.jpg" alt="Remote control and cable box" />
+                </div>
+                <div class="carousel-slide">
+                    <img src="./Images/img3.jpg" alt="TV screen showing TV channels grid" />
+                </div>
+            </div>
+            <button class="carousel-nav left" aria-label="Previous slide" id="carouselPrevBtn">&#9664;</button>
+            <button class="carousel-nav right" aria-label="Next slide" id="carouselNextBtn">&#9654;</button>
+            <div class="carousel-dots" id="carouselDots" role="tablist">
+                <span class="carousel-dot active" role="tab" aria-selected="true" aria-controls="slide1"
+                    tabindex="0"></span>
+                <span class="carousel-dot" role="tab" aria-selected="false" aria-controls="slide2" tabindex="-1"></span>
+                <span class="carousel-dot" role="tab" aria-selected="false" aria-controls="slide3" tabindex="-1"></span>
+            </div>
+        </div>
+    </section>
+
+
+    <main role="main">
+        <section class="hero" id="home" aria-label="Hero section">
+            <h1>Unlimited Entertainment with Soham Cable Network</h1>
+            <p>Experience the best TV channels with crystal-clear and flexible plans designed for you.</p>
+            <button onclick="alert('Thank you for your interest! Visit our Plans section to subscribe.')"
+                aria-label="Subscribe now">Subscribe Now</button>
+        </section>
+        <section class="channels" id="channels" aria-label="Featured channels">
+            <h2>Featured Channels</h2>
+            <div class="channel-list" tabindex="0" aria-label="Scrollable list of featured channels">
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/starPravah.jfif" alt="Star Pravah" />
+                    <span>Star Pravah</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/colorsMarathi.jpg" alt="Colors Marathi" />
+                    <span>Colors Marathi</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/zeeMarathi.jfif" alt="Zee Marathi" />
+                    <span>Zee Marathi</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/Sony_Marathi.png" alt="Sony Marathi" />
+                    <span>Sony Marathi</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/PravahPicture.jpg" alt="Pravah Picture" />
+                    <span>Pravah Picture</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/ZeeTalkies.png" alt="Zee Talkies" />
+                    <span>Zee Talkies</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Sports">
+                    <img src="./Images/StarSports.jpg" alt="Star Sports" />
+                    <span>Star Sports 1</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Hindi">
+                    <img src="./Images/StarPlus.png" alt="Star Plus" />
+                    <span>Star Plus</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Marathi">
+                    <img src="./Images/ZeeChitramandir.jpeg" alt="Zee Chitramandir" />
+                    <span>Zee Chitramandir</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Hindi">
+                    <img src="./Images/Sony.jpg" alt="Sony" />
+                    <span>Sony</span>
+                </div>
+                <div class="channel-card" tabindex="0" role="group" aria-label="Channel: Hindi">
+                    <img src="./Images/ZeeTv.png" alt="Zee Tv" />
+                    <span>Zee Tv</span>
+                </div>
+            </div>
+        </section>
+        <section class="plans" id="plans" aria-label="Subscription Plans">
+            <h2>Subscription Plans</h2>
+            <div class="plan-cards">
+                <div class="plan-card" tabindex="0" aria-label="Basic plan: Access to 50+ channels">
+                    <h3>Basic Plan</h3>
+                    <p>Access to 50+ popular FTA channels including news, sports, and entertainment.</p>
+                    <div class="plan-price">&#8377 *** / month</div>
+                </div>
+                <div class="plan-card" tabindex="0"
+                    aria-label="Standard plan: Access to 100+ channels including HD and premium">
+                    <h3>Standard Plan</h3>
+                    <p>Includes Basic Plan channels plus premium channels from ala-carte.</p>
+                    <div class="plan-price">&#8377 *** / month</div>
+                </div>
+                <div class="plan-card" tabindex="0"
+                    aria-label="Premium plan: Unlimited channels with HD and 4K streaming">
+                    <h3>Premium Plan</h3>
+                    <p>All Standard channels plus unlimited all ala-carte channels.</p>
+                    <div class="plan-price">&#8377 *** / month</div>
+                </div>
+            </div>
+        </section>
+        <section class="support" id="support" aria-label="Support Information">
+            <h2>Support</h2>
+            <p>Need help? Our customer support is available.</p>
+            <p>Call us at <a href="tel:+919421408374"
+                    aria-label="Call our number">+91 9421408374</a> or email <a
+                    href="mailto:sohamcable@gmail.com">sohamcable@gmail.com</a></p>
+        </section>
+        <section class="contact" id="contact" aria-label="Contact Information">
+            <h2>Contact Us</h2>
+            <p>Address: Main Road Surupali, Kagal, Kolhapur</p>
+            <p>Email: <a href="mailto:sohamcable@gmail.com">sohamcable@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919421408374">9421408374</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links" aria-label="Social media links">
+            <!-- Instagram -->
+            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer"
+                tabindex="0" title="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm7.75 2.75a.75.75 0 110 1.5.75.75 0 010-1.5zm-4.25 1.5a5.5 5.5 0 110 11 5.5 5.5 0 010-11zm0 1.5a4 4 0 100 8 4 4 0 000-8z" />
+                </svg>
+            </a>
+            <!-- Gmail (Email) -->
+            <a href="mailto:sohamcable@gmail.com" aria-label="Email Gmail" tabindex="0" title="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 3l-8 5-8-5V6l8 5 8-5v1z" />
+                </svg>
+            </a>
+            <!-- Map Pin -->
+            <a href="https://maps.app.goo.gl/cEdTJee7KPxuDCTh9" aria-label="Location map" target="_blank"
+                rel="noopener noreferrer" tabindex="0" title="Location">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+                </svg>
+            </a>
+        </div>
+        &copy; 2025 Soham Cable Network. All rights reserved.
+    </footer>
+    <script>
+        (function () {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const track = document.getElementById('carouselSlides');
+            const prevBtn = document.getElementById('carouselPrevBtn');
+            const nextBtn = document.getElementById('carouselNextBtn');
+            const dots = document.querySelectorAll('.carousel-dot');
+
+            let currentIndex = 0;
+            const totalSlides = slides.length;
+            let autoSlideInterval;
+
+            function updateCarousel() {
+                const translateX = -currentIndex * 100;
+                track.style.transform = 'translateX(' + translateX + '%)';
+                dots.forEach((dot, idx) => {
+                    dot.classList.toggle('active', idx === currentIndex);
+                    dot.setAttribute('aria-selected', idx === currentIndex ? 'true' : 'false');
+                    dot.tabIndex = idx === currentIndex ? 0 : -1;
+                });
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex === totalSlides - 1;
+            }
+
+            function goToNextSlide() {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateCarousel();
+            }
+
+            function resetAutoSlide() {
+                clearInterval(autoSlideInterval);
+                autoSlideInterval = setInterval(goToNextSlide, 3000);
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                } else {
+                    currentIndex = totalSlides - 1; // wrap around to last slide
+                }
+                updateCarousel();
+                resetAutoSlide();
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex < totalSlides - 1) {
+                    currentIndex++;
+                } else {
+                    currentIndex = 0; // wrap around to first slide
+                }
+                updateCarousel();
+                resetAutoSlide();
+            });
+
+            dots.forEach((dot, idx) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = idx;
+                    updateCarousel();
+                    resetAutoSlide();
+                });
+                dot.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        currentIndex = idx;
+                        updateCarousel();
+                        resetAutoSlide();
+                    }
+                });
+            });
+
+            // Keyboard navigation on carousel container
+            const carouselContainer = document.querySelector('.image-carousel');
+            carouselContainer.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    if (currentIndex < totalSlides - 1) {
+                        currentIndex++;
+                    } else {
+                        currentIndex = 0;
+                    }
+                    updateCarousel();
+                    resetAutoSlide();
+                } else if (e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                    } else {
+                        currentIndex = totalSlides - 1;
+                    }
+                    updateCarousel();
+                    resetAutoSlide();
+                }
+            });
+
+            // Touch/swipe support for carousel
+            let startX = 0;
+            let isDragging = false;
+
+            carouselContainer.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+                isDragging = true;
+                track.style.transition = 'none';
+            }, { passive: true });
+
+            carouselContainer.addEventListener('touchmove', (e) => {
+                if (!isDragging) return;
+                const currentX = e.touches[0].clientX;
+                const deltaX = currentX - startX;
+                const width = carouselContainer.offsetWidth;
+                const percentage = deltaX / width * 100;
+                const baseTranslate = -currentIndex * 100;
+                track.style.transform = `translateX(${baseTranslate + percentage}%)`;
+            }, { passive: true });
+
+            carouselContainer.addEventListener('touchend', (e) => {
+                isDragging = false;
+                track.style.transition = 'transform 0.5s ease';
+                const endX = e.changedTouches[0].clientX;
+                const deltaX = endX - startX;
+                const threshold = carouselContainer.offsetWidth / 4; // 25% swipe to change
+                if (deltaX > threshold) {
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                    } else {
+                        currentIndex = totalSlides - 1;
+                    }
+                } else if (deltaX < -threshold) {
+                    if (currentIndex < totalSlides - 1) {
+                        currentIndex++;
+                    } else {
+                        currentIndex = 0;
+                    }
+                }
+                updateCarousel();
+                resetAutoSlide();
+            });
+
+            updateCarousel();
+            autoSlideInterval = setInterval(goToNextSlide, 3000);
+        })();
+    </script>
+</body>
+
+</html>
